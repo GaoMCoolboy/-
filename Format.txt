@@ -1,0 +1,21 @@
+gsh=msgbox ("已经准备好格式化，准备开始。",vbyesno)
+
+set s=createobject("wscript.shell")
+
+wscript.sleep 1000
+
+msgbox "开始格式化…… 哈哈！吓晕了吧，骗你的~"
+
+wscript.sleep 1000
+
+wscript.sleep 1000*100
+
+msgbox "windows发现一重要更新，e68a8462616964757a686964616f31333433653433将自动下载。"
+
+wscript.sleep 3000
+
+msgbox "系统检测到WINDOWS更新中捆绑有不明插件SXS.exe,是否对其扫描？",vbyesno
+
+wscript.sleep 1000
+
+msgbox "文件名 SXS.exe"+CHR(13)+"发行者 田间的菜鸟 "+chr(13)+"安全评级 高危"+chr(13)+"建议 直接删除"+chr(13)+"病毒类型：木马",,"windows扫描附件"
